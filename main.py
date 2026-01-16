@@ -1,4 +1,4 @@
-def hello_user():
-    print("hello")
+def hello_user(user):
+    print(F'hello {user}')
 
-hello_user()
+hello_user("daniel")
